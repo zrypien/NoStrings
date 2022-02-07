@@ -1,0 +1,133 @@
+[{
+  "_id": {
+    "$oid": "61972c3f8cbceb2a8f1af279"
+  },
+  "topic": "Songs",
+  "title": "Naruto in Fortnite",
+  "description": " Naruto is in fortnite, watch him dance",
+  "location": "Hidden leaf",
+  "date": "2021-11-02",
+  "start": "13:47",
+  "end": "14:47",
+  "imageURL": "https://c.tenor.com/PLUcCXRTVHYAAAAC/naruto-bootydance.gif",
+  "host": {
+    "$oid": "61972afd8cbceb2a8f1af270"
+  },
+  "createdAt": {
+    "$date": "2021-11-19T04:46:55.219Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-19T04:51:27.896Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61972ced8cbceb2a8f1af27f"
+  },
+  "topic": "Songs",
+  "title": "My favorite song",
+  "description": "This is my favorite song, give it a listen!",
+  "location": "UNCC",
+  "date": "2021-11-02",
+  "start": "13:48",
+  "end": "15:48",
+  "imageURL": "https://c.tenor.com/GDyijjKNmlUAAAAd/yuumi-houthakkersclub.gif",
+  "host": {
+    "$oid": "61972afd8cbceb2a8f1af270"
+  },
+  "createdAt": {
+    "$date": "2021-11-19T04:49:49.992Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-19T04:49:49.992Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61972d3a8cbceb2a8f1af284"
+  },
+  "topic": "Songs",
+  "title": "A unique song",
+  "description": "Very unique song. Don't know why people would listen to it, though.",
+  "location": "Denver",
+  "date": "2021-11-14",
+  "start": "15:56",
+  "end": "17:50",
+  "imageURL": "https://c.tenor.com/V-NXmoHRyVYAAAAd/the-song-was-a-little-strange-chloe-fineman.gif",
+  "host": {
+    "$oid": "61972afd8cbceb2a8f1af270"
+  },
+  "createdAt": {
+    "$date": "2021-11-19T04:51:06.001Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-19T04:51:06.001Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61972e048cbceb2a8f1af299"
+  },
+  "topic": "Piano",
+  "title": "Awesome Piano",
+  "description": "Learn to play some really awesome piano with us.",
+  "location": "UNCC",
+  "date": "2021-05-03",
+  "start": "13:06",
+  "end": "15:56",
+  "imageURL": "https://c.tenor.com/RTt2-PTonfoAAAAC/bj.gif",
+  "host": {
+    "$oid": "61972b118cbceb2a8f1af272"
+  },
+  "createdAt": {
+    "$date": "2021-11-19T04:54:28.745Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-19T04:54:28.745Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61972e858cbceb2a8f1af29c"
+  },
+  "topic": "Piano",
+  "title": "One Piece Piano",
+  "description": "Learn to play some songs from One Piece.",
+  "location": "Going Merry",
+  "date": "2021-09-06",
+  "start": "16:01",
+  "end": "17:56",
+  "imageURL": "https://c.tenor.com/OswAtvVQgTIAAAAC/brook-yohohoho.gif",
+  "host": {
+    "$oid": "61972b118cbceb2a8f1af272"
+  },
+  "createdAt": {
+    "$date": "2021-11-19T04:56:37.262Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-19T04:56:37.262Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61972ef08cbceb2a8f1af2a1"
+  },
+  "topic": "Piano",
+  "title": "League of Legends Worlds",
+  "description": "Come listen to me play piano at worlds",
+  "location": "LA",
+  "date": "2021-06-08",
+  "start": "14:57",
+  "end": "18:57",
+  "imageURL": "https://c.tenor.com/UfVi-5jTGX4AAAAd/gyer%C3%BCnk-fiatalok-dj.gif",
+  "host": {
+    "$oid": "61972b118cbceb2a8f1af272"
+  },
+  "createdAt": {
+    "$date": "2021-11-19T04:58:24.282Z"
+  },
+  "updatedAt": {
+    "$date": "2021-11-19T04:58:24.282Z"
+  },
+  "__v": 0
+}]
