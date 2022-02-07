@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>No Strings Attached</title>
+    <meta name="Project 4 Submission Zach Rypien" content="Project 4 index">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/css/zrypien.css">
+</head>
+<body>
+<header>
+    <span id= "logo">
+        <a href = '/'>
+        <img alt= "logo" src="/images/logo.png"/>
+        </a>
+    </span>
+    <nav>
+        <ul id = "headerlist">
+            <%if(!user) {%>
+                <li class = person><a href='/users/new'>Sign Up</a>
+                <li class = person><a href='/users/login'>Login</a>
+                <%} else {%>
+                
+                <li class = person><a href='/users/profile'>Profile</a>
+                <li class = person><a href='/users/logout'>Logout</a>
+                <li class = person><a href='/connections/new'>New Connection</a>
+               <% }%>
+        </ul>
+    </nav>
+     <div class= "name">Current user: <%=name%></div> 
+    <hr>
+    <div id= "connections"> 
+    <a href="/connections">Connections</a>
+</div>
+
+<% if(errorMessages.length > 0) {%>
+    <% errorMessages.forEach(message=>{%>
+        <div class='error'>
+            <%=message%>
+        </div>
+        <%});%>
+            <%}%>
+
+                <% if(successMessages.length > 0) {%>
+
+                    <% successMessages.forEach(message=>{%>
+                        <div class='success'>
+                            <%=message%>
+                        </div>
+                        <%});%>
+                            <%}%>
+</header>

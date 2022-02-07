@@ -1,0 +1,33 @@
+<%- include('../partials/header.ejs')%>
+<h1>Create Event</h1>
+<form action = '/connections' method = 'POST'>
+
+    <label for="topic">Topic:</label>
+    <input type="text" id="topic" name="topic" placeholder="Topic" required>
+    <br><br>
+
+    <label for="title">Title:</label>
+    <input type="text" id="title" name="title" placeholder= "Title" required><br><br>
+
+    <label for="description">Description:</label>
+    <textarea id="description" name="description" placeholder="Description"></textarea><br><br>
+
+    <label for="location">Where:</label>
+    <input type="text" id="location" name="location" placeholder = "Location"><br><br>
+
+    <label for="date">When:</label>
+    <input type="date" id="date" name="date"><br><br>
+
+    <label for="start">Start:</label>
+    <input type="time" id="start" name="start"> <br><br>
+
+    <label for="end">End:</label>
+    <input type="time" id="end" name="end"> <Br><br>
+
+    <label for="imageURL">Image URL:</label>
+    <input type="url" id="imageURL" name="imageURL" placeholder= "Image URL"><br><br>
+
+    <button>Create Connection</button>
+    </form>
+
+<%- include('../partials/footer.ejs')%>

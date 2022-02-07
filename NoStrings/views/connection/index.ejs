@@ -1,0 +1,23 @@
+<%- include('../partials/header.ejs')%>
+<div class = "events">
+    <% let topics = []; %>
+    <%connections.forEach(connection=>{
+        if (!topics.includes(connection.topic)) {
+            topics.push(connection.topic);
+        }
+    });%>
+           <%if(topics.length) {%>
+            <%topics.forEach(topic=>{%>
+                <h1><%= topic%></h1>
+                <%connections.forEach(connection=>{%>
+                    <% if(connection.topic == topic){%>
+                    <a href = "/connections/<%= connection.id%>"><p><%= connection.title%></p></a>
+                <%}%>
+                     <% }); %>
+                 <% }); %>
+        <%} else {%>
+            <p>There are no connections to display.</p>
+        <%}%>
+        </div>
+        <%- include('../partials/footer.ejs')%>
+    
